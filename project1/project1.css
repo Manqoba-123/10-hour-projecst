@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: rgb(216, 178, 153);
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left-container {
+    width: 30vw;
+    height: 60vh;
+    background-color: #fff2;
+    border-radius: 8px;
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: hsl(0, 0%, 0%);
+}
+
+.left-container h1 {
+    font-family:monospace;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.numbers {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 2rem;
+    line-height: 1;
+}
+
+.timer {
+    display: flex;
+}
+
+.countdown {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.countdown span {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.date-input {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.date-input label {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.date-inputs {
+    background-color: #fff1;
+    border: solid rgb(207, 200, 186);
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.date-inputs:hover {
+    border: solid greenyellow;
+}
+
+.right-container {
+    background-color: #fff4;
+    border-radius: 8px;
+}
