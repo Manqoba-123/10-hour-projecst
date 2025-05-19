@@ -19,8 +19,8 @@ body {
 }
 
 .left-container {
-    width: 30vw;
-    height: 60vh;
+    width: 35vw;
+    height: 65vh;
     background-color: #fff2;
     border-radius: 8px;
     backdrop-filter: blur(2px);
@@ -81,7 +81,36 @@ body {
     border: solid greenyellow;
 }
 
+.countdown-btn {
+    background:#a2d467;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.countdown-btn:hover {
+    background: #7cd416;
+    transform: scale(1.2);
+}
+
 .right-container {
     background-color: #fff4;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.picture img {
+    width: 400px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.text-p {
+    text-align: center;
+    color: black;
+    font-size: 1.7rem;
 }
